@@ -36,7 +36,7 @@ h2{
 .plays{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
     padding-top: 80px;
