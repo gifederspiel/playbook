@@ -1,22 +1,25 @@
 import { Head } from "$fresh/runtime.ts";
+import Coat from "../components/coating.tsx";
+import { Play } from "../play.d.ts";
+import plays from "../plays.json" assert { type: "json" };
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>Fresh App</title>
-      </Head>
-      <div class="p-4 mx-auto max-w-screen-md">
-        <img
-          src="/logo.svg"
-          class="w-32 h-32"
-          alt="the fresh logo: a sliced lemon dripping with juice"
-        />
-        <p class="my-6">
-          Welcome to `fresh`. Try updating this message in the ./routes/index.tsx
-          file, and refresh.
-        </p>
+    <Coat title="Playbook">
+      <div class="plays">
+        {plays.map((play) => playCard(play))}
       </div>
-    </>
+    </Coat>
   );
 }
+
+const playCard = (play: Play) => (
+  <div class="play">
+    <h2>{play.name}</h2>
+    <video controls muted>
+      <source src="videos/5_links.mp4" type="video/mp4" />
+    </video>
+    <br />
+    <a href={play.name}>Details</a>
+  </div>
+);

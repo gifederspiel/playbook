@@ -1,3 +1,50 @@
 [{
-    "name": "A"
+    "name": "10 Rechts",
+    "videoUrl": "videos/10_rechts.mp4",
+    "moves": [
+        "RB spielt RW an",
+        "RW spielt an RB zurück und läuft ab",
+        "RB macht druck nach aussen",
+        "RB spielt CB",
+        "CB spielt LB",
+        "RW überläuft CR am Kreis",
+        "LB läuft durch die Nahtstelle"
+    ]
+}, {
+    "name": "6 Rechts",
+    "videoUrl": "videos/6_rechts.mp4",
+    "moves": [
+        "RB spielt an RW",
+        "RB und RW wechseln Position",
+        "RW spielt an CB",
+        "CB macht Passtäuschung nach links",
+        "CB spielt an RW",
+        "RW spielt an RB"
+    ]
+}, {
+    "name": "5 Links",
+    "videoUrl": "videos/5_links.mp4",
+    "moves": [
+        "RB spielt auf RW",
+        "RW macht Druck und spielt RB an",
+        "RB zieht Druck weiter und spielt CB an",
+        "CB zieht Druck weiter und spielt LB an",
+        "LB zieht LW an",
+        "LW belastet nach Aussen",
+        "LW spielt LB zurück",
+        "LB zieht druck nach Aussen weiter und spielt CB an",
+        "CB macht Passtäuschung nach rechts",
+        "CB holt LW ins Kreuzen und belastet zwischen RB und RW",
+        "LB zieht in die Mitte und wird von LW angespielt"
+    ]
+}, {
+    "name": "4 Links",
+    "videoUrl": "videos/5_links.mp4",
+    "moves": [
+        "RB spielt auf CB",
+        "CB spielt CR an und wechselt mit ihm die Position",
+        "LB zieht in die Mitte",
+        "CR spielt RB an und positioniert sich am Kreis bei Verteidiger LB",
+        "RB spielt einlaufenden LB an"
+    ]
 }]
