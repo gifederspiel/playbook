@@ -27,3 +27,15 @@ video{
     height: 500px;
     border-radius: 10px;
 }
+@media screen and (max-width: 450px){
+    .plays{
+        flex-direction: column;
+        align-items: center;
+    }
+    .play{
+        width: 100%;
+    }
+    video{
+        height: 400px;
+    }
+}
