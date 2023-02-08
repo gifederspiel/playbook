@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/detail.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>6 Rechts</h1>
+        <img src="../images/sgruwo_logo.svg" alt="">
+    </header>
+    <div class="plays">
+        <div class="play">            
+            <button class="button-9" onclick="redirect()" role="button">Zurück</button>
+            <video controls muted preload="auto">
+                <source src ="../videos/6_rechts.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="play">
+            <h2>Ablauf</h2>
+            <ol>
+                <li>RB spielt an RW</li>
+                <li>RB und RW wechseln Position</li>
+                <li>RW spielt an CB</li>
+                <li>CB macht Passtäuschung nach links</li>
+                <li>CB spielt an RW</li>
+                <li>RW spielt an RB</li>
+            </ol>
+        </div>
+    </div>
+    <footer>
+        <p>© 2023 <a href="https://gianfederspiel.ch">Gian Federspiel</a></p>
+    </footer>
+</body>
+<script>
+    function redirect() {
+        window.location.href = "../index.html";
+    }
+</script>
+</html>
