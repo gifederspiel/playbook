@@ -11,10 +11,10 @@ header{
     align-items: center;
     justify-content: center;
     height: 100px;
-    margin-top: 75px;
+    margin-top: 110px;
 }
 header img{
-    height: 250px;
+    height: 380px;
 }
 h1{
     text-align: center;
@@ -39,7 +39,7 @@ h2{
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-    padding-top: 80px;
+    padding-top: 110px;
     padding-bottom: 40px;
     background-color: white;
 }
