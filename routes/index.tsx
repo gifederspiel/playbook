@@ -17,7 +17,7 @@ const playCard = (play: Play) => (
   <div class="play">
     <h2>{play.name}</h2>
     <video controls muted>
-      <source src="videos/5_links.mp4" type="video/mp4" />
+      <source src="videos/{play.name.toLowerCase().replace(" ", "_")}.mp4" type="video/mp4" />
     </video>
     <br />
     <a href={play.name}>Details</a>
