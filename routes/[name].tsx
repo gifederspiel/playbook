@@ -27,7 +27,7 @@ export default function Greet({ data: play }: PageProps<Play>) {
             <button class="button-9" role="button">Zurück</button>
           </a>
           <video controls muted>
-            <source src="/videos/4_links.mp4" type="video/mp4" />
+            <source src={play.videoUrl} type="video/mp4" />
           </video>
         </div>
         <div class="play">

@@ -1,7 +1,7 @@
 [{
     "name": "10 Rechts",
-    "videoUrl": "videos/10_rechts.mp4",
-    "moves": [
+    "videoUrl": "https://github.com/gifederspiel/playbook/blob/main/static/videos/10_rechts.mp4?raw=true",
+    "moves":  [
         "RB spielt RW an",
         "RW spielt an RB zurück und läuft ab",
         "RB macht druck nach aussen",
@@ -12,8 +12,8 @@
     ]
 }, {
     "name": "6 Rechts",
-    "videoUrl": "videos/6_rechts.mp4",
-    "moves": [
+    "videoUrl": "https://github.com/gifederspiel/playbook/blob/main/static/videos/6_rechts.mp4?raw=true",
+    "moves":  [
         "RB spielt an RW",
         "RB und RW wechseln Position",
         "RW spielt an CB",
@@ -23,8 +23,8 @@
     ]
 }, {
     "name": "5 Links",
-    "videoUrl": "videos/5_links.mp4",
-    "moves": [
+    "videoUrl": "https://github.com/gifederspiel/playbook/blob/main/static/videos/5_links.mp4?raw=true",
+    "moves":  [
         "RB spielt auf RW",
         "RW macht Druck und spielt RB an",
         "RB zieht Druck weiter und spielt CB an",
@@ -39,12 +39,28 @@
     ]
 }, {
     "name": "4 Links",
-    "videoUrl": "videos/5_links.mp4",
-    "moves": [
+    "videoUrl": "https://github.com/gifederspiel/playbook/blob/main/static/videos/5_links.mp4?raw=true",
+    "moves":  [
         "RB spielt auf CB",
         "CB spielt CR an und wechselt mit ihm die Position",
         "LB zieht in die Mitte",
         "CR spielt RB an und positioniert sich am Kreis bei Verteidiger LB",
         "RB spielt einlaufenden LB an"
     ]
-}]
+}, {
+    "name": "SchnellesAnspiel",
+    "videoUrl": "https://github.com/gifederspiel/playbook/blob/main/static/videos/SchnellesAnspiel.mp4?raw=true"
+}, {
+    "name": "Überzahl 6:5",
+    "videoUrl": "https://github.com/gifederspiel/playbook/blob/main/static/videos/ueberzahl.mp4?raw=true"
+}, {
+    "name": "Flügelspiel 1",
+    "videoUrl": "https://github.com/gifederspiel/playbook/blob/main/static/videos/fluegelspiel1.mp4?raw=true"
+}, {
+    "name": "Flügelspiel 2",
+    "videoUrl": "https://github.com/gifederspiel/playbook/blob/main/static/videos/fluegelspiel2.mp4?raw=true"
+}, {    
+    "name": "Flügelspiel 3",
+    "videoUrl": "https://github.com/gifederspiel/playbook/blob/main/static/videos/fluegelspiel3.mp4?raw=true"
+}
+]

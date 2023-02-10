@@ -17,7 +17,7 @@ const playCard = (play: Play) => (
   <div class="play">
     <h2>{play.name}</h2>
     <video controls muted>
-      <source src={"https://github.com/gifederspiel/playbook/blob/main/static/videos/" + play.name.toLowerCase().replace(" ", "_") + ".mp4?raw=true"} type="video/mp4" />
+      <source src={play.videoUrl} type="video/mp4" />
     </video>
     <br />
     <a href={play.name}>Details</a>
